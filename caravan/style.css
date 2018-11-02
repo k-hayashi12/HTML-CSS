@@ -20,7 +20,7 @@ header {
   margin: 0 auto;
   text-align: center;
 }
-header .headline{
+header .headline {
   font-size: 32px;
 }
 .nav-list {
@@ -42,7 +42,7 @@ header .headline{
   background-position: center; /* 背景画像を中央に配置 */
 }
 
-.main-visual-content{
+.main-visual-content {
   width: 40%; /* 横幅を指定 */
   height: 300px; /* 親の高さに揃える */
   background-color: rgba(0,0,0,0.5); /*背景色を半透明の黒いする */
@@ -50,27 +50,73 @@ header .headline{
   padding-top: 105px;
 }
 
-.main-visual-text{
+.main-visual-text {
   color: #fff;
 }
 
-.main-visual-name{
+.main-visual-name {
   color: #fff;
   margin-top: 30px;
 }
 
-.main {
-  width: 840px; /* 横幅 */
-  margin: 0 auto;
+main {
+  width: 800px; /* 横幅 */
+  margin: 0 auto; /* 中央寄せ */
+  padding: 70px 0; /* 上下に70px、左右に0pxの枠の内側の余白 */
 }
+
 .blog {
-  width: 600px;
-  height: 1400px;
+  width: 540px;
   float: left; /* 要素を左揃えで並べる */
+  margin-right: 30px; /* 箱の右側に30pxの余白 */
 }
+
+.blog-headline {
+  border-bottom: 8px solid #f7f7f7;
+  text-align: center;
+  line-height: 0.6;
+}
+
+.blog-box {
+  padding-top: 50px;
+}
+
+.blog-item {
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #f7f7f7;
+}
+
+.blog-image {
+  height: 180px;
+  float: left;
+}
+
+.blog-text {
+  float: left;
+  padding: 30px 0 0 25px;
+}
+
+.blog-text-headline {
+  padding: 0 0 15px 0;
+}
+
+.blog-date {
+  font-size: 12px;
+  display: inline-block;
+}
+
+.category {
+  display: inline-block;
+  padding: 5px 8px;
+  background-color: #acabab;
+  border-radius: 3px;
+  color: #fff;
+  font-size: 11px;
+}
+
 .sidebar {
-  width: 240px;
-  height: 1400px;
+  width: 230px;
   float: left; /* 要素を左揃えで並べる */
 }
 
@@ -81,6 +127,7 @@ footer {
   padding: 50px 0;
   background-color: #848282;
 }
+
 .footer-text {
   color: #fff;
 }
